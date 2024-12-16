@@ -16,7 +16,6 @@
 @media screen and (max-width: 768px) {
   .pokemonCardContainer {
     grid-template-columns: 1fr 1fr;
-    /* タブレット: 2列 */
   }
 }
 
@@ -24,7 +23,8 @@
   .pokemonCardContainer {
 
     grid-template-columns: 1fr 1fr;
-    /* スマホ: 1列 */
+    gap: 15px;
+      padding: 10px;
   }
 }
 
